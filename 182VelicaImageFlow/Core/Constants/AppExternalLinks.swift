@@ -2,8 +2,8 @@ import StoreKit
 import UIKit
 
 enum AppExternalLink: String, CaseIterable {
-    case privacyPolicy = "https://example.com/privacy-policy"
-    case termsOfUse = "https://example.com/terms-of-use"
+    case privacyPolicy = "https://velicaimageflow182.site/privacy/199"
+    case termsOfUse = "https://velicaimageflow182.site/terms/199"
 
     var url: URL? {
         URL(string: rawValue)
