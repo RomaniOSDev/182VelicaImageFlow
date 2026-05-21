@@ -3,33 +3,109 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		300302082FBEE86D0058EE20 /* AppExternalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301BF2FBEE86D0058EE20 /* AppExternalLinks.swift */; };
+		300302092FBEE86D0058EE20 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301C12FBEE86D0058EE20 /* AppModels.swift */; };
+		3003020A2FBEE86D0058EE20 /* DataResetNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301C32FBEE86D0058EE20 /* DataResetNotification.swift */; };
+		3003020B2FBEE86D0058EE20 /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301C52FBEE86D0058EE20 /* FeedbackManager.swift */; };
+		3003020C2FBEE86D0058EE20 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301C72FBEE86D0058EE20 /* AppStorage.swift */; };
+		3003020D2FBEE86D0058EE20 /* PhotoImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301C82FBEE86D0058EE20 /* PhotoImageStore.swift */; };
+		3003020E2FBEE86D0058EE20 /* TagNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301CA2FBEE86D0058EE20 /* TagNormalizer.swift */; };
+		3003020F2FBEE86D0058EE20 /* Feature1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301CD2FBEE86D0058EE20 /* Feature1View.swift */; };
+		300302102FBEE86D0058EE20 /* Feature1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301CE2FBEE86D0058EE20 /* Feature1ViewModel.swift */; };
+		300302112FBEE86D0058EE20 /* Feature3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D02FBEE86D0058EE20 /* Feature3View.swift */; };
+		300302122FBEE86D0058EE20 /* Feature3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D12FBEE86D0058EE20 /* Feature3ViewModel.swift */; };
+		300302132FBEE86D0058EE20 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D32FBEE86D0058EE20 /* HomeView.swift */; };
+		300302142FBEE86D0058EE20 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D42FBEE86D0058EE20 /* HomeWidgets.swift */; };
+		300302152FBEE86D0058EE20 /* InsightsChartsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D62FBEE86D0058EE20 /* InsightsChartsSection.swift */; };
+		300302162FBEE86D0058EE20 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D72FBEE86D0058EE20 /* InsightsView.swift */; };
+		300302172FBEE86D0058EE20 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301D92FBEE86D0058EE20 /* MainTabView.swift */; };
+		300302182FBEE86D0058EE20 /* MediaHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301DB2FBEE86D0058EE20 /* MediaHubView.swift */; };
+		300302192FBEE86D0058EE20 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301DD2FBEE86D0058EE20 /* OnboardingView.swift */; };
+		3003021A2FBEE86D0058EE20 /* Feature2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301DF2FBEE86D0058EE20 /* Feature2View.swift */; };
+		3003021B2FBEE86D0058EE20 /* Feature2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301E02FBEE86D0058EE20 /* Feature2ViewModel.swift */; };
+		3003021C2FBEE86D0058EE20 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301E22FBEE86D0058EE20 /* PrivacyPolicyView.swift */; };
+		3003021D2FBEE86D0058EE20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301E32FBEE86D0058EE20 /* SettingsView.swift */; };
+		3003021E2FBEE86D0058EE20 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301E52FBEE86D0058EE20 /* TimelineView.swift */; };
+		3003021F2FBEE86D0058EE20 /* UserAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301E72FBEE86D0058EE20 /* UserAlbumsView.swift */; };
+		300302202FBEE86D0058EE20 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301EC2FBEE86D0058EE20 /* CustomCells.swift */; };
+		300302212FBEE86D0058EE20 /* AchievementBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301EE2FBEE86D0058EE20 /* AchievementBannerView.swift */; };
+		300302222FBEE86D0058EE20 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301EF2FBEE86D0058EE20 /* CustomTabBar.swift */; };
+		300302232FBEE86D0058EE20 /* DevicePhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F02FBEE86D0058EE20 /* DevicePhotoPicker.swift */; };
+		300302242FBEE86D0058EE20 /* JournalPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F12FBEE86D0058EE20 /* JournalPhotoView.swift */; };
+		300302252FBEE86D0058EE20 /* LayeredBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F22FBEE86D0058EE20 /* LayeredBackground.swift */; };
+		300302262FBEE86D0058EE20 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F32FBEE86D0058EE20 /* PrimaryButtonStyle.swift */; };
+		300302272FBEE86D0058EE20 /* SearchFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F42FBEE86D0058EE20 /* SearchFilterBar.swift */; };
+		300302282FBEE86D0058EE20 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F52FBEE86D0058EE20 /* ShakeEffect.swift */; };
+		300302292FBEE86D0058EE20 /* SuccessCheckmarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F62FBEE86D0058EE20 /* SuccessCheckmarkOverlay.swift */; };
+		3003022A2FBEE86D0058EE20 /* TagsInputSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F72FBEE86D0058EE20 /* TagsInputSection.swift */; };
+		3003022B2FBEE86D0058EE20 /* AppChromeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301F92FBEE86D0058EE20 /* AppChromeConfiguration.swift */; };
+		3003022C2FBEE86D0058EE20 /* DesignModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301FA2FBEE86D0058EE20 /* DesignModifiers.swift */; };
+		3003022D2FBEE86D0058EE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301FD2FBEE86D0058EE20 /* AppDelegate.swift */; };
+		3003022E2FBEE86D0058EE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300301FF2FBEE86D0058EE20 /* ContentView.swift */; };
+		3003022F2FBEE86D0058EE20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300302052FBEE86D0058EE20 /* SceneDelegate.swift */; };
+		300302302FBEE86D0058EE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300302062FBEE86D0058EE20 /* ViewController.swift */; };
+		300302312FBEE86D0058EE20 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 300301EA2FBEE86D0058EE20 /* privacy_policy.md */; };
+		300302322FBEE86D0058EE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300301FE2FBEE86D0058EE20 /* Assets.xcassets */; };
+		300302342FBEE86D0058EE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300302022FBEE86D0058EE20 /* LaunchScreen.storyboard */; };
+		300302352FBEE86D0058EE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300302042FBEE86D0058EE20 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		09FB1D51ED54A349AB10C45F /* Pods_182VelicaImageFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_182VelicaImageFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		300300412FBE472C0058EE20 /* 182VelicaImageFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 182VelicaImageFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300301BF2FBEE86D0058EE20 /* AppExternalLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLinks.swift; sourceTree = "<group>"; };
+		300301C12FBEE86D0058EE20 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		300301C32FBEE86D0058EE20 /* DataResetNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResetNotification.swift; sourceTree = "<group>"; };
+		300301C52FBEE86D0058EE20 /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		300301C72FBEE86D0058EE20 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		300301C82FBEE86D0058EE20 /* PhotoImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageStore.swift; sourceTree = "<group>"; };
+		300301CA2FBEE86D0058EE20 /* TagNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagNormalizer.swift; sourceTree = "<group>"; };
+		300301CD2FBEE86D0058EE20 /* Feature1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1View.swift; sourceTree = "<group>"; };
+		300301CE2FBEE86D0058EE20 /* Feature1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ViewModel.swift; sourceTree = "<group>"; };
+		300301D02FBEE86D0058EE20 /* Feature3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature3View.swift; sourceTree = "<group>"; };
+		300301D12FBEE86D0058EE20 /* Feature3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature3ViewModel.swift; sourceTree = "<group>"; };
+		300301D32FBEE86D0058EE20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		300301D42FBEE86D0058EE20 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		300301D62FBEE86D0058EE20 /* InsightsChartsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsChartsSection.swift; sourceTree = "<group>"; };
+		300301D72FBEE86D0058EE20 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		300301D92FBEE86D0058EE20 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		300301DB2FBEE86D0058EE20 /* MediaHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHubView.swift; sourceTree = "<group>"; };
+		300301DD2FBEE86D0058EE20 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		300301DF2FBEE86D0058EE20 /* Feature2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2View.swift; sourceTree = "<group>"; };
+		300301E02FBEE86D0058EE20 /* Feature2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ViewModel.swift; sourceTree = "<group>"; };
+		300301E22FBEE86D0058EE20 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		300301E32FBEE86D0058EE20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		300301E52FBEE86D0058EE20 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		300301E72FBEE86D0058EE20 /* UserAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAlbumsView.swift; sourceTree = "<group>"; };
+		300301EA2FBEE86D0058EE20 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		300301EC2FBEE86D0058EE20 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		300301EE2FBEE86D0058EE20 /* AchievementBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerView.swift; sourceTree = "<group>"; };
+		300301EF2FBEE86D0058EE20 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		300301F02FBEE86D0058EE20 /* DevicePhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePhotoPicker.swift; sourceTree = "<group>"; };
+		300301F12FBEE86D0058EE20 /* JournalPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPhotoView.swift; sourceTree = "<group>"; };
+		300301F22FBEE86D0058EE20 /* LayeredBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredBackground.swift; sourceTree = "<group>"; };
+		300301F32FBEE86D0058EE20 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		300301F42FBEE86D0058EE20 /* SearchFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterBar.swift; sourceTree = "<group>"; };
+		300301F52FBEE86D0058EE20 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		300301F62FBEE86D0058EE20 /* SuccessCheckmarkOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCheckmarkOverlay.swift; sourceTree = "<group>"; };
+		300301F72FBEE86D0058EE20 /* TagsInputSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsInputSection.swift; sourceTree = "<group>"; };
+		300301F92FBEE86D0058EE20 /* AppChromeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppChromeConfiguration.swift; sourceTree = "<group>"; };
+		300301FA2FBEE86D0058EE20 /* DesignModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignModifiers.swift; sourceTree = "<group>"; };
+		300301FD2FBEE86D0058EE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		300301FE2FBEE86D0058EE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300301FF2FBEE86D0058EE20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		300302002FBEE86D0058EE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300302012FBEE86D0058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		300302032FBEE86D0058EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		300302052FBEE86D0058EE20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		300302062FBEE86D0058EE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67AAB3048A69111F318D5DFC /* Pods-182VelicaImageFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-182VelicaImageFlow.debug.xcconfig"; path = "Target Support Files/Pods-182VelicaImageFlow/Pods-182VelicaImageFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		F033EE4BAFC363EE98DD68EA /* Pods-182VelicaImageFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-182VelicaImageFlow.release.xcconfig"; path = "Target Support Files/Pods-182VelicaImageFlow/Pods-182VelicaImageFlow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		300300532FBE472E0058EE20 /* Exceptions for "182VelicaImageFlow" folder in "182VelicaImageFlow" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 300300402FBE472C0058EE20 /* 182VelicaImageFlow */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		300300432FBE472C0058EE20 /* 182VelicaImageFlow */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				300300532FBE472E0058EE20 /* Exceptions for "182VelicaImageFlow" folder in "182VelicaImageFlow" target */,
-			);
-			path = 182VelicaImageFlow;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3003003E2FBE472C0058EE20 /* Frameworks */ = {
@@ -45,8 +121,10 @@
 		300300382FBE472C0058EE20 = {
 			isa = PBXGroup;
 			children = (
-				300300432FBE472C0058EE20 /* 182VelicaImageFlow */,
+				300302072FBEE86D0058EE20 /* 182VelicaImageFlow */,
 				300300422FBE472C0058EE20 /* Products */,
+				740BA88850389432690FA063 /* Pods */,
+				C780818D1B2F78253B01255B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +136,268 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		300301C02FBEE86D0058EE20 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				300301BF2FBEE86D0058EE20 /* AppExternalLinks.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		300301C22FBEE86D0058EE20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				300301C12FBEE86D0058EE20 /* AppModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		300301C42FBEE86D0058EE20 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				300301C32FBEE86D0058EE20 /* DataResetNotification.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		300301C62FBEE86D0058EE20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				300301C52FBEE86D0058EE20 /* FeedbackManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		300301C92FBEE86D0058EE20 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				300301C72FBEE86D0058EE20 /* AppStorage.swift */,
+				300301C82FBEE86D0058EE20 /* PhotoImageStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		300301CB2FBEE86D0058EE20 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				300301CA2FBEE86D0058EE20 /* TagNormalizer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		300301CC2FBEE86D0058EE20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				300301C02FBEE86D0058EE20 /* Constants */,
+				300301C22FBEE86D0058EE20 /* Models */,
+				300301C42FBEE86D0058EE20 /* Notifications */,
+				300301C62FBEE86D0058EE20 /* Services */,
+				300301C92FBEE86D0058EE20 /* Storage */,
+				300301CB2FBEE86D0058EE20 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		300301CF2FBEE86D0058EE20 /* CuratedGallery */ = {
+			isa = PBXGroup;
+			children = (
+				300301CD2FBEE86D0058EE20 /* Feature1View.swift */,
+				300301CE2FBEE86D0058EE20 /* Feature1ViewModel.swift */,
+			);
+			path = CuratedGallery;
+			sourceTree = "<group>";
+		};
+		300301D22FBEE86D0058EE20 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				300301D02FBEE86D0058EE20 /* Feature3View.swift */,
+				300301D12FBEE86D0058EE20 /* Feature3ViewModel.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		300301D52FBEE86D0058EE20 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				300301D32FBEE86D0058EE20 /* HomeView.swift */,
+				300301D42FBEE86D0058EE20 /* HomeWidgets.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		300301D82FBEE86D0058EE20 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				300301D62FBEE86D0058EE20 /* InsightsChartsSection.swift */,
+				300301D72FBEE86D0058EE20 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		300301DA2FBEE86D0058EE20 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				300301D92FBEE86D0058EE20 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		300301DC2FBEE86D0058EE20 /* MediaHub */ = {
+			isa = PBXGroup;
+			children = (
+				300301DB2FBEE86D0058EE20 /* MediaHubView.swift */,
+			);
+			path = MediaHub;
+			sourceTree = "<group>";
+		};
+		300301DE2FBEE86D0058EE20 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				300301DD2FBEE86D0058EE20 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		300301E12FBEE86D0058EE20 /* PhotoJournal */ = {
+			isa = PBXGroup;
+			children = (
+				300301DF2FBEE86D0058EE20 /* Feature2View.swift */,
+				300301E02FBEE86D0058EE20 /* Feature2ViewModel.swift */,
+			);
+			path = PhotoJournal;
+			sourceTree = "<group>";
+		};
+		300301E42FBEE86D0058EE20 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				300301E22FBEE86D0058EE20 /* PrivacyPolicyView.swift */,
+				300301E32FBEE86D0058EE20 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		300301E62FBEE86D0058EE20 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				300301E52FBEE86D0058EE20 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		300301E82FBEE86D0058EE20 /* UserAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				300301E72FBEE86D0058EE20 /* UserAlbumsView.swift */,
+			);
+			path = UserAlbums;
+			sourceTree = "<group>";
+		};
+		300301E92FBEE86D0058EE20 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				300301CF2FBEE86D0058EE20 /* CuratedGallery */,
+				300301D22FBEE86D0058EE20 /* Discover */,
+				300301D52FBEE86D0058EE20 /* Home */,
+				300301D82FBEE86D0058EE20 /* Insights */,
+				300301DA2FBEE86D0058EE20 /* Main */,
+				300301DC2FBEE86D0058EE20 /* MediaHub */,
+				300301DE2FBEE86D0058EE20 /* Onboarding */,
+				300301E12FBEE86D0058EE20 /* PhotoJournal */,
+				300301E42FBEE86D0058EE20 /* Settings */,
+				300301E62FBEE86D0058EE20 /* Timeline */,
+				300301E82FBEE86D0058EE20 /* UserAlbums */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		300301EB2FBEE86D0058EE20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				300301EA2FBEE86D0058EE20 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		300301ED2FBEE86D0058EE20 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				300301EC2FBEE86D0058EE20 /* CustomCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		300301F82FBEE86D0058EE20 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				300301EE2FBEE86D0058EE20 /* AchievementBannerView.swift */,
+				300301EF2FBEE86D0058EE20 /* CustomTabBar.swift */,
+				300301F02FBEE86D0058EE20 /* DevicePhotoPicker.swift */,
+				300301F12FBEE86D0058EE20 /* JournalPhotoView.swift */,
+				300301F22FBEE86D0058EE20 /* LayeredBackground.swift */,
+				300301F32FBEE86D0058EE20 /* PrimaryButtonStyle.swift */,
+				300301F42FBEE86D0058EE20 /* SearchFilterBar.swift */,
+				300301F52FBEE86D0058EE20 /* ShakeEffect.swift */,
+				300301F62FBEE86D0058EE20 /* SuccessCheckmarkOverlay.swift */,
+				300301F72FBEE86D0058EE20 /* TagsInputSection.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		300301FB2FBEE86D0058EE20 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				300301F92FBEE86D0058EE20 /* AppChromeConfiguration.swift */,
+				300301FA2FBEE86D0058EE20 /* DesignModifiers.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		300301FC2FBEE86D0058EE20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				300301ED2FBEE86D0058EE20 /* Cells */,
+				300301F82FBEE86D0058EE20 /* Components */,
+				300301FB2FBEE86D0058EE20 /* Design */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		300302072FBEE86D0058EE20 /* 182VelicaImageFlow */ = {
+			isa = PBXGroup;
+			children = (
+				300301CC2FBEE86D0058EE20 /* Core */,
+				300301E92FBEE86D0058EE20 /* Features */,
+				300301EB2FBEE86D0058EE20 /* Resources */,
+				300301FC2FBEE86D0058EE20 /* UI */,
+				300301FD2FBEE86D0058EE20 /* AppDelegate.swift */,
+				300301FE2FBEE86D0058EE20 /* Assets.xcassets */,
+				300301FF2FBEE86D0058EE20 /* ContentView.swift */,
+				300302002FBEE86D0058EE20 /* Info.plist */,
+				300302022FBEE86D0058EE20 /* LaunchScreen.storyboard */,
+				300302042FBEE86D0058EE20 /* Main.storyboard */,
+				300302052FBEE86D0058EE20 /* SceneDelegate.swift */,
+				300302062FBEE86D0058EE20 /* ViewController.swift */,
+			);
+			path = 182VelicaImageFlow;
+			sourceTree = "<group>";
+		};
+		740BA88850389432690FA063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67AAB3048A69111F318D5DFC /* Pods-182VelicaImageFlow.debug.xcconfig */,
+				F033EE4BAFC363EE98DD68EA /* Pods-182VelicaImageFlow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C780818D1B2F78253B01255B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FB1D51ED54A349AB10C45F /* Pods_182VelicaImageFlow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +405,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 300300542FBE472E0058EE20 /* Build configuration list for PBXNativeTarget "182VelicaImageFlow" */;
 			buildPhases = (
+				5A54907DFC5AF78EBDAFD07D /* [CP] Check Pods Manifest.lock */,
 				3003003D2FBE472C0058EE20 /* Sources */,
 				3003003E2FBE472C0058EE20 /* Frameworks */,
 				3003003F2FBE472C0058EE20 /* Resources */,
@@ -73,12 +414,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				300300432FBE472C0058EE20 /* 182VelicaImageFlow */,
-			);
 			name = 182VelicaImageFlow;
-			packageProductDependencies = (
-			);
 			productName = 182VelicaImageFlow;
 			productReference = 300300412FBE472C0058EE20 /* 182VelicaImageFlow.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +435,7 @@
 				};
 			};
 			buildConfigurationList = 3003003C2FBE472C0058EE20 /* Build configuration list for PBXProject "182VelicaImageFlow" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +443,6 @@
 				Base,
 			);
 			mainGroup = 300300382FBE472C0058EE20;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 300300422FBE472C0058EE20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +457,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300302312FBEE86D0058EE20 /* privacy_policy.md in Resources */,
+				300302322FBEE86D0058EE20 /* Assets.xcassets in Resources */,
+				300302342FBEE86D0058EE20 /* LaunchScreen.storyboard in Resources */,
+				300302352FBEE86D0058EE20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A54907DFC5AF78EBDAFD07D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-182VelicaImageFlow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3003003D2FBE472C0058EE20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300302082FBEE86D0058EE20 /* AppExternalLinks.swift in Sources */,
+				300302092FBEE86D0058EE20 /* AppModels.swift in Sources */,
+				3003020A2FBEE86D0058EE20 /* DataResetNotification.swift in Sources */,
+				3003020B2FBEE86D0058EE20 /* FeedbackManager.swift in Sources */,
+				3003020C2FBEE86D0058EE20 /* AppStorage.swift in Sources */,
+				3003020D2FBEE86D0058EE20 /* PhotoImageStore.swift in Sources */,
+				3003020E2FBEE86D0058EE20 /* TagNormalizer.swift in Sources */,
+				3003020F2FBEE86D0058EE20 /* Feature1View.swift in Sources */,
+				300302102FBEE86D0058EE20 /* Feature1ViewModel.swift in Sources */,
+				300302112FBEE86D0058EE20 /* Feature3View.swift in Sources */,
+				300302122FBEE86D0058EE20 /* Feature3ViewModel.swift in Sources */,
+				300302132FBEE86D0058EE20 /* HomeView.swift in Sources */,
+				300302142FBEE86D0058EE20 /* HomeWidgets.swift in Sources */,
+				300302152FBEE86D0058EE20 /* InsightsChartsSection.swift in Sources */,
+				300302162FBEE86D0058EE20 /* InsightsView.swift in Sources */,
+				300302172FBEE86D0058EE20 /* MainTabView.swift in Sources */,
+				300302182FBEE86D0058EE20 /* MediaHubView.swift in Sources */,
+				300302192FBEE86D0058EE20 /* OnboardingView.swift in Sources */,
+				3003021A2FBEE86D0058EE20 /* Feature2View.swift in Sources */,
+				3003021B2FBEE86D0058EE20 /* Feature2ViewModel.swift in Sources */,
+				3003021C2FBEE86D0058EE20 /* PrivacyPolicyView.swift in Sources */,
+				3003021D2FBEE86D0058EE20 /* SettingsView.swift in Sources */,
+				3003021E2FBEE86D0058EE20 /* TimelineView.swift in Sources */,
+				3003021F2FBEE86D0058EE20 /* UserAlbumsView.swift in Sources */,
+				300302202FBEE86D0058EE20 /* CustomCells.swift in Sources */,
+				300302212FBEE86D0058EE20 /* AchievementBannerView.swift in Sources */,
+				300302222FBEE86D0058EE20 /* CustomTabBar.swift in Sources */,
+				300302232FBEE86D0058EE20 /* DevicePhotoPicker.swift in Sources */,
+				300302242FBEE86D0058EE20 /* JournalPhotoView.swift in Sources */,
+				300302252FBEE86D0058EE20 /* LayeredBackground.swift in Sources */,
+				300302262FBEE86D0058EE20 /* PrimaryButtonStyle.swift in Sources */,
+				300302272FBEE86D0058EE20 /* SearchFilterBar.swift in Sources */,
+				300302282FBEE86D0058EE20 /* ShakeEffect.swift in Sources */,
+				300302292FBEE86D0058EE20 /* SuccessCheckmarkOverlay.swift in Sources */,
+				3003022A2FBEE86D0058EE20 /* TagsInputSection.swift in Sources */,
+				3003022B2FBEE86D0058EE20 /* AppChromeConfiguration.swift in Sources */,
+				3003022C2FBEE86D0058EE20 /* DesignModifiers.swift in Sources */,
+				3003022D2FBEE86D0058EE20 /* AppDelegate.swift in Sources */,
+				3003022E2FBEE86D0058EE20 /* ContentView.swift in Sources */,
+				3003022F2FBEE86D0058EE20 /* SceneDelegate.swift in Sources */,
+				300302302FBEE86D0058EE20 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		300302022FBEE86D0058EE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300302012FBEE86D0058EE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		300302042FBEE86D0058EE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300302032FBEE86D0058EE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		300300552FBE472E0058EE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AAB3048A69111F318D5DFC /* Pods-182VelicaImageFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +572,41 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 182VelicaImageFlow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Velica Image Flow";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MoodSync needs access to your photo library so you can add images to your journal.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-82VelicaImageFlow";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cra.v3l1c51m5g3fl0w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		300300562FBE472E0058EE20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F033EE4BAFC363EE98DD68EA /* Pods-182VelicaImageFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +614,35 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 182VelicaImageFlow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Velica Image Flow";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MoodSync needs access to your photo library so you can add images to your journal.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-82VelicaImageFlow";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cra.v3l1c51m5g3fl0w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

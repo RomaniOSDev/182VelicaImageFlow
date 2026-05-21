@@ -1,0 +1,6 @@
+framework module Pods_182VelicaImageFlow {
+  umbrella header "Pods-182VelicaImageFlow-umbrella.h"
+
+  export *
+  module * { export * }
+}
